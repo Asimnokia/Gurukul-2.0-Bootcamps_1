@@ -22,7 +22,7 @@
 # a=b=c=10
 # print(a,b,c)
 
-#4. Assign two variables a and b as integer and print the sum of a+b.
+#4. Assign two variables a and b as integer and print the sum of a+b
 
 
 # Assign two variables
