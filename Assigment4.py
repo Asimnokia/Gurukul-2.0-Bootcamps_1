@@ -220,10 +220,34 @@
 #     # Display the result
 # result_time.display_time()  # Output: 4 hours and 20 minutes
 #
-#
-#
-#
-#
+#10.Create a class EmployeeSalary with class variables basic_salary and bonus_percentage. Write a class method set_bonus_percentage() to change the bonus percentage for all employees. Create an instance method calculate_total_salary() to calculate and return the total salary (basic + bonus) for a specific employee.
+
+class EmployeeSalary:
+    basic_salary = 0
+    bonus_percentage = 0
+
+    def __init__(self, basic_salary):
+        self.basic_salary = basic_salary
+
+    @classmethod
+    def set_bonus_percentage(cls, bonus_percentage):
+        cls.bonus_percentage = bonus_percentage
+
+    def calculate_total_salary(self):
+        bonus_amount = (self.basic_salary * EmployeeSalary.bonus_percentage) / 100
+        return self.basic_salary + bonus_amount
+
+# Set the bonus percentage for all employees
+EmployeeSalary.set_bonus_percentage(10)
+
+# Create instances of the EmployeeSalary class
+employee1 = EmployeeSalary(50000)
+employee2 = EmployeeSalary(60000)
+
+# Calculate and display the total salary for each employee
+print(f"Total salary for employee 1: {employee1.calculate_total_salary()}")
+print(f"Total salary for employee 2: {employee2.calculate_total_salary()}")
+
 #
 #
 #
