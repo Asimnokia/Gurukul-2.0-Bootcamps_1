@@ -1,0 +1,20 @@
+Objective:
+Create a visually appealing HTML webpage with the following features:
+
+
+1. Header: A prominent header that reflects the theme.
+2. Page Title: A clear title indicating the webpage's purpose.
+3. User Input Forms:
+	Include forms for user details based on the chosen theme.
+4. Integrate an image or video relevant to the theme.
+
+
+Theme Options:
+You may choose any one of the following themes for the webpage, or select a theme of your own preference:
+
+1. Job Application: A form for users to submit personal details, work experience, and education.
+2. Feedback Form: A form designed to collect user feedback with fields for comments and ratings.
+3. Survey: A survey form that gathers user opinions and open-ended responses.
+
+
+Don't forget to be creative!
